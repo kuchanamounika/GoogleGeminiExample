@@ -42,3 +42,13 @@ Files in this folder:
 Notes:
 - These examples use `requests` or standard libraries so they can be adapted to SDKs.
 - Replace endpoints and payload fields to match the provider's exact API schema.
+
+**Industry examples**
+- **General / Demo:** `1_getting_started.py`, `5_streaming.py`, `realtime/demo_local_realtime_server.py`
+- **Research / NLP:** `2_embeddings.py`, `10_batch_embeddings.py`, `12_temperature_sweep.py`, `8_few_shot.py`, `research_summarization.py` (new)
+- **Medical / Healthcare (non-diagnostic):** `medical_triage.py` (new) — high-level triage-style prompts with clear disclaimers; not a substitute for professional medical advice
+- **IT / Operations / Realtime:** `5_streaming.py`, `realtime/realtime_ws_proxy.py`, `realtime/demo_local_realtime_server.py`, `11_conversation_memory.py`, `it_alerts_stream.py` (new)
+- **Safety / Content Moderation:** `7_moderation.py`
+- **Developer / Integration:** `4_function_calling.py`, `9_rate_limit_retry.py`
+
+If you'd like, I can also split these into subfolders (for example `examples/industry/medical`, `examples/industry/research`, etc.) and add README files per industry with more tailored guidance and disclaimers.
